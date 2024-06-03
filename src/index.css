@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 
+body{
 
+  background-color: #ffffff;
+}
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -30,10 +33,10 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
+
+ 
   place-items: center;
-  min-width: 320px;
+
   min-height: 100vh;
 }
 
