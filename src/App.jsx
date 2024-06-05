@@ -7,6 +7,9 @@ import FeatureCard from "./Component/FeatureCard/FeatureCard.jsx";
 import FooterComponent    from "./Component/Footer/Footer.jsx";
 import VideoPlayer from "./Component/VideoBar/VideoBar.jsx";
 import FirstHeading from "./Component/FirstHeading/FirstHeading.jsx";
+import Productcard from "./Component/Productcard/Productcard.jsx";
+import LearnHeading from "./Component/LearnHeading/LearnHeading.jsx";
+import LmsDiscription from "./Component/LmsDiscription/LmsDiscription.jsx";
 
 function App() {
   return (
@@ -17,9 +20,10 @@ function App() {
       <PartnerList />
       <FirstHeading />
       <FeatureCard />
-
+      <LmsDiscription />
        <VideoPlayer />
-       
+       <LearnHeading />
+       <Productcard />
       <CompanyCard />
 
     <FooterComponent />

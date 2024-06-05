@@ -8,8 +8,8 @@ import TeamIcon from "../FeatureCardImage/Team.png"
 
 function FeatureCard() {
   return (
-    <div className=' flex flex-wrap mt-10 ml-20 text-center'> {/* Remove flex-col and add flex-wrap */}
-  <Card className="max-w-sm d-flex flex-column align-items-center">
+    <div className=' flex flex-wrap mt-10 ml-20 text-center  '> {/* Remove flex-col and add flex-wrap */}
+  <Card className="max-w-sm d-flex flex-column align-items-center hover:shadow-2xl">
   <img src={BuildingIcon} alt="Meaningful alt text for an image that is not purely decorative" style={{height: '50px', width: '50px' ,margin:"0 135px 0"}} />
   <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white font-serif">
    Increased Employement Engagement 
@@ -22,7 +22,7 @@ function FeatureCard() {
 </Card>
     
     
-    <Card className="max-w-sm d-flex flex-column align-items-center ml-20 ">
+    <Card className="max-w-sm d-flex flex-column align-items-center ml-20  hover:shadow-2xl ">
   <img src={EmployeIcon} alt="Meaningful alt text for an image that is not purely decorative" style={{height: '50px', width: '50px' ,margin:"0 135px 0"}} />
   <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white font-serif">
     Enhance Employee 
@@ -32,7 +32,7 @@ function FeatureCard() {
    decision-making with data-driven insights, fostering a culture of continuous learning and growth.
   </p>
 </Card>
-<Card className="max-w-sm d-flex flex-column align-items-center ml-20 ">
+<Card className="max-w-sm d-flex flex-column align-items-center ml-20  hover:shadow-2xl ">
   <img src={TeamIcon} alt="Meaningful alt text for an image that is not purely decorative" style={{height: '50px', width: '50px' ,margin:"0 135px 0"}} />
   <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white font-serif">
    Adaptability and Innovation

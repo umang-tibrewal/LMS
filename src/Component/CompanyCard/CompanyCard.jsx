@@ -3,12 +3,12 @@ import { Card } from "flowbite-react";
 
 function CompanyCard() {
     return (
-        <div className="flex flex-row mt-5 mb-5"> {/* Use 'flex-row' for side-by-side layout */}
+        <div className="flex flex-row mt-5 mb-5"> 
           <Card className="w-1/2 mr-2"> {/* Set width to half and add margin for spacing */}
           <img
   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRePd2oS6K-dvuC_PT1rkBNgvTsdvLQd3ZbyQ&s"
   alt="LearnKnowD Logo"
-  className="rounded-lg object-cover h-24"
+  className="rounded-lg object-cover h-30"
 ></img>
           </Card>
           <div className="w-1/2 p-4"> {/* Set width to half and add padding */}
