@@ -3,6 +3,7 @@ import { Card } from "flowbite-react";
 
 function CompanyCard() {
     return (
+      <div className="bg-gray-100 py-8">
         <div className="flex flex-row mt-5 mb-5"> 
           <Card className="w-1/2 mr-2"> {/* Set width to half and add margin for spacing */}
           <img
@@ -16,6 +17,7 @@ function CompanyCard() {
             At LearnKnow Digital, we are a dynamic team of passionate individuals dedicated to revolutionizing the Digital Learning landscape. LearnKnow Digital - Your Solution Partner for Digital & Video-Based Learning!</h4>
             <p style={{color: '#3ec508'}} className="text-sm  font-serif italic">-LearnKnowD</p>
           </div>
+        </div>
         </div>
       )
 }

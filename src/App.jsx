@@ -10,6 +10,7 @@ import FirstHeading from "./Component/FirstHeading/FirstHeading.jsx";
 import Productcard from "./Component/Productcard/Productcard.jsx";
 import LearnHeading from "./Component/LearnHeading/LearnHeading.jsx";
 import LmsDiscription from "./Component/LmsDiscription/LmsDiscription.jsx";
+import NumberMain from "./Component/NumberMain/NumberMain.jsx";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <FirstHeading />
       <FeatureCard />
       <LmsDiscription />
+      <NumberMain />
        <VideoPlayer />
        <LearnHeading />
        <Productcard />
