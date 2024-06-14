@@ -1,41 +1,90 @@
-
+import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import pimg from "../PatnerIMG/ExceedL.avif"
 import Naandi  from "../PatnerIMG/Naandi.png"
 import vikranshila  from "../PatnerIMG/vigramshila.png"
 import hp from "../PatnerIMG/hp.jpg"
 
 
+// Card data
+const card1Image = 'DigitalImg';
+const card1Description = 'Digital Marketing';
 
-function PartnerList() {
-    const partners = [
-        { name: 'Company A', logo: pimg },
-        { name: 'Company B', logo: Naandi },
-        { name: 'Company B', logo:  vikranshila},
-        { name: 'Company B', logo:  hp},
+const card2Image = 'https://example.com/card2.jpg';
+const card2Description = 'Video Production';
+
+const card3Image = 'https://example.com/card3.jpg';
+const card3Description = 'Web Development';
+
+
+
+const PartnerList = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
+
+  return (
+    <div className="   mb-32 mx-auto mt-10  ">
+
+<div  className='text-center mb-9'>
+
+<h1 style={{color:"black"}}   className="font-serif">Our Patners</h1>
+</div>
+    <div className="max-w-screen-md  ml-64 " >
+
+   
+ 
+      <Slider {...settings}  style={{width:"1000px"}} >
+     
+          <div className="bg-white    ">
+            <img src={pimg} alt="Card 1" className="w-48 h-40 object-cover" />
+           
+          </div>
+    
+    
+          <div className="bg-white  ">
+            <img src={Naandi} alt="Card 1" className=" object-cover" />
+           
+          </div>
       
      
-       
-    ];
-    
-    return (
-        <div className="w-full mt-10">
-            <div className="container mx-auto px-4 py-8 text-center">
-                <h1 className="font-serif" style={{color: '#000000'}}>Our Clients</h1>
-            </div>
-            <ul className="flex flex-wrap justify-center w-full"> 
-                <li className="p-4 rounded-lg shadow-sm bg-white"> 
-                  
-                    <div className="flex flex-wrap justify-center w-full"> 
-                        {partners.map((partner) => (
-                            <div  className="w-auto px-4"  style={{height:"95px",width:"250px"  ,margin:"0 10px 25px 25px"}} > {/* Add px-4 to add some padding */}
-                                <img src={partner.logo} alt={partner.name} className="w-22 h-21 object-cover  " /> 
-                            </div>
-                        ))}
-                    </div>
-                </li>
-            </ul>
+      
+          <div className="bg-white    ">
+            <img src={hp} alt="Card 1" className=" object-cover" />
+           
+          </div>
+  
+     
+        <div className=" ">
+          <div className="bg-white    ">
+            <img src={vikranshila} alt="Card 1" className=" object-cover" style={{height:"120px"}} />
+           
+          </div>
         </div>
-    );
-}
+      </Slider>
+      </div>
+    </div>
+  );
+};
 
 export default PartnerList;

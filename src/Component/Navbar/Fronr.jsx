@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Front() {
   return (
     <div className="absolute top-0 left-0 w-full">
-      <Navbar fluid rounded className="mt-0 w-full">
+      <Navbar fluid className="mt-0 w-full">
         <Navbar.Brand href="https://flowbite-react.com" className="mr-4">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRePd2oS6K-dvuC_PT1rkBNgvTsdvLQd3ZbyQ&s"

@@ -46,7 +46,7 @@ function Signup() {
           </button>
           <button className="bg-black border border-gray-300 py-2 w-full rounded-xl mt-3 flex justify-center items-center text-sm hover:bg-black-100 transition duration-300">
             <img className="w-6 mr-3" src="./img/google_logo_icon.png" alt="" />
-            Sign Up with FaceBook
+            Sign Up with Facebook
           </button>
           <div className="mt-3 text-xs flex justify-between items-center">
             <p>

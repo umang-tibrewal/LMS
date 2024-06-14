@@ -27,7 +27,7 @@ function Login() {
           </button>
           <button className="bg-black border py-2 w-full rounded-xl mt-5 flex justify-center text-sm">
             <img className="w-6 mr-3" src="./img/google_logo_icon.png" alt="" />                
-            Login with FaceBook
+            Login with Facebook
           </button>
           <p className="mt-5 text-xs border-b border-gray-400 py-4">
             <a href="" style={{color:"black"}}>Forgot Your password?</a>
