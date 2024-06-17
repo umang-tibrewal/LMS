@@ -37,9 +37,9 @@ function Front() {
           <Navbar.Link href="#" className="navbar-link mt-2 mx-4">
             Pricing
           </Navbar.Link>
-          <Navbar.Link href="#" className="navbar-link mt-2 mx-4">
+    <Link to="/Contact">      <Navbar.Link href="#" className="navbar-link mt-2 mx-4">
             Contact
-          </Navbar.Link>
+          </Navbar.Link></Link>
           <Link to="/login">
             <Button
               style={{ backgroundColor: "#3ec508" }}

@@ -59,7 +59,7 @@ function Signup() {
             </button>
           </div>
         </div>
-        <div className="w-1/2 bg-green-500 flex items-center p-8">
+        <div className="w-1/2 bg-[#3ec508] flex items-center p-8">
           <div className="pl-8">
             <h2 className="text-2xl font-bold mb-4 text-white">LMS - Learning and Management Software</h2>
             <p className="text-white">
